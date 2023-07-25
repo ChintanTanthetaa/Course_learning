@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  outline: none;
+}
+
+.bg-lightpink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 246 239 / var(--tw-bg-opacity));
+}
+
+.banner-image {
+  background-image: url(./assets/imgs/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slick-list {
+  width: 4864px;
+  opacity: 1;
+  transform: translate3d(-1824px, 0px, 0px);
+  transition: -webkit-transform 2000ms linear 0s;
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 31 105 / var(--tw-bg-opacity));
+}
