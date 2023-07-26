@@ -55,14 +55,16 @@ const Mentors = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-wrap gap-5">
+          <div className="grid lg:grid-cols-3  grid-cols-1  place-items-center gap-5">
             {webdevelopemnt.map((e) => (
-              <div className="w-[43vh] flex flex-col justify-center items-center ">
-                <div className="mb-2">
+              <div className="w-full">
+                <div className="mb-2 ">
                   <img src={e.logo} alt="courselogo" className="h-full" />
                 </div>
-                <div className=" font-semibold text-center  bg-[#eb9f9f] rounded-lg w-60 p-1 ">
-                  {e.title}
+                <div className="lg:px-20 px-6 font-semibold text-center  ">
+                  <p className=" bg-[#eb9f9f] rounded-lg w-60 p-1 ">
+                    {e.title}
+                  </p>
                 </div>
                 <div className="text-xl font-bold text-center">{e.Name}</div>
               </div>

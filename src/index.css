@@ -27,3 +27,10 @@
   --tw-bg-opacity: 1;
   background-color: rgb(97 31 105 / var(--tw-bg-opacity));
 }
+
+.bg-newsletter {
+  background-image: url(./assets/svg/hands.svg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

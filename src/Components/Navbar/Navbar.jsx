@@ -57,7 +57,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`transition-all duration-300 p-3 ${navbarColor} fixed w-full top-0 z-10`}
+        className={`transition-all duration-300 p-3 ${navbarColor} fixed w-full top-0 z-30 `}
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="relative flex justify-between">
@@ -145,58 +145,59 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </nav>
-
-      {/* Responsive Menu */}
-      {showMenu && (
-        <div className="md:hidden bg-[#FCF6EF] h-screen">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="flex justify-center items-center flex-col space-y-4 py-4">
-              <a
-                className="text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
-                aria-current="page"
-                href="/"
-              >
-                Home
-              </a>
-              <a
-                className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
-                aria-current="page"
-                href="/#courses-section"
-              >
-                Courses
-              </a>
-              <a
-                className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
-                aria-current="page"
-                href="/#mentors-section"
-              >
-                Mentors
-              </a>
-              <a
-                className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
-                aria-current="page"
-                href="/#testimonial-section"
-              >
-                Testimonial
-              </a>
-              <a
-                className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
-                aria-current="page"
-                href="/#join-section"
-              >
-                Join
-              </a>
-              <button
-                className="text-15px font-medium space-links"
-                onClick={Componentopen}
-              >
-                Contact Us
-              </button>
+        {/* Responsive Menu */}
+        {showMenu && (
+          <div className="md:hidden h-[100vh] fixed'
+        ">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="flex justify-center items-center flex-col space-y-4 py-4">
+                <a
+                  className="text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
+                  aria-current="page"
+                  href="/"
+                >
+                  Home
+                </a>
+                <a
+                  className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
+                  aria-current="page"
+                  href="/#courses-section"
+                >
+                  Courses
+                </a>
+                <a
+                  className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
+                  aria-current="page"
+                  href="/#mentors-section"
+                >
+                  Mentors
+                </a>
+                <a
+                  className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
+                  aria-current="page"
+                  href="/#testimonial-section"
+                >
+                  Testimonial
+                </a>
+                <a
+                  className="hover:text-[#5a1855] px-3 py-4 text-15px font-medium space-links"
+                  aria-current="page"
+                  href="/#join-section"
+                >
+                  Join
+                </a>
+                <button
+                  className="text-15px font-medium space-links"
+                  onClick={Componentopen}
+                >
+                  Contact Us
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </nav>
+
 
       {isPopupOpen ? (
         <>
@@ -230,7 +231,7 @@ const Navbar = () => {
                   placeholder="Leave a comment...."
                 ></textarea>
               </div>
-              <div className="mt-10 text-center bg-[#c784d3] text-white p-2 rounded-md cursor-pointer ">
+              <div className="mt-10 text-center bg-[#4e1358] text-white p-2 rounded-md cursor-pointer ">
                 <button type="button" className="">
                   Send message
                 </button>
