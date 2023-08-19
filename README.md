@@ -56,5 +56,5 @@ Open your browser and go to http://localhost:3000.
 ### Technologies Used
 List the main technologies, libraries, and frameworks your project is built upon.
 
-React.js
+React.js,
 Tailwindcss
