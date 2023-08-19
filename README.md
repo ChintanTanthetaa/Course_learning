@@ -1,4 +1,4 @@
-# Project Name
+# Course Learning
 
 The Learning Course Platform is a dynamic online education system designed to empower learners and educators alike.
 This project create a simple website for Leaning multipale course.
