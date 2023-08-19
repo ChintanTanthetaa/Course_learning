@@ -147,8 +147,10 @@ const Navbar = () => {
         </div>
         {/* Responsive Menu */}
         {showMenu && (
-          <div className="md:hidden h-[100vh] fixed'
-        ">
+          <div
+            className="md:hidden h-[100vh] fixed'
+        "
+          >
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="flex justify-center items-center flex-col space-y-4 py-4">
                 <a
@@ -198,18 +200,17 @@ const Navbar = () => {
         )}
       </nav>
 
-
       {isPopupOpen ? (
         <>
           <div className="fixed flex items-center md:ml-[25vh] lg:ml-[75vh] mt-20 z-[999999] p-2">
-            <div className="bg-white md:w-[48vh] md:p-10 p-5 rounded-3xl">
-              <div className="flex flex-col justify-center items-center text-center md:gap-7 md:p-5">
+            <div className="bg-white md:w-[48vh] md:p-5 p-3 rounded-3xl">
+              <div className="flex flex-col justify-center items-center text-center md:gap-5 ">
                 <img className="h-20" src={logo} alt="Courses-Logo" />
-                <h1 className="md:text-2xl text-xl font-semibold">
+                <h1 className="md:text-xl text-xl font-semibold">
                   Contact us now? Want to send us a feedback?
                 </h1>
               </div>
-              <div className="mt-10">
+              <div className="mt-5">
                 <label className="block">Name</label>
                 <input
                   type="text"
@@ -231,7 +232,7 @@ const Navbar = () => {
                   placeholder="Leave a comment...."
                 ></textarea>
               </div>
-              <div className="mt-10 text-center bg-[#4e1358] text-white p-2 rounded-md cursor-pointer ">
+              <div className="mt-5 text-center bg-[#4e1358] text-white p-2 rounded-md cursor-pointer ">
                 <button type="button" className="">
                   Send message
                 </button>

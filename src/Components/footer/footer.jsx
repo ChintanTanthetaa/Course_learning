@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='pb-24 px-4'>
-                <h3 className='text-center text-white'>@2023 - All Rights Reserved by Adminmart.com</h3>
+                <h3 className='text-center text-white'>@2023 - All Rights Reserved by Cl.com</h3>
             </div>
         </div>
     )
