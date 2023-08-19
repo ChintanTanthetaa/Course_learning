@@ -38,11 +38,9 @@ Step-by-step guide on how to install your project.
    git clone https://github.com/yourusername/yourproject.git
 
 2. Navigate to the project directory:
-   
 cd yourproject
 
 3. Install project dependencies:
-
 npm install
 
 ### Usage
